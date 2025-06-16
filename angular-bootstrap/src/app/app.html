@@ -1,0 +1,62 @@
+<style>
+  /* Add styles here */
+</style>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Handmade Children's Books</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          @for (item of [{label: 'Home', href: '/'}]; track item.label) {
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" [href]="item.href">{{item.label}}</a>
+          </li>
+          }
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <h1>Welcome to our site!</h1>
+    <p>Here at HCB, we are perfectionists. We handcraft each book, including binding, lettering, and illustration, with
+      meticulous care. Our intention is to produce something that will last your family for generations. Please take a
+      look through our offerings and don't hesitate to get in touch with any questions about our process or products.
+    </p>
+
+    <h2>Available books</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>James and the Giant Peach</td>
+          <td>Roald Dahl</td>
+          <td>$1,400</td>
+        </tr>
+        <tr>
+          <td>The Little Prince</td>
+          <td>Antoine de Saint-Exupéry</td>
+          <td>$850</td>
+        </tr>
+        <tr>
+          <td>Peter Pan</td>
+          <td>J.M. Barrie</td>
+          <td>$2,300</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+</div>
+
+<router-outlet />
