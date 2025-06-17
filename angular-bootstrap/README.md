@@ -24,17 +24,31 @@ The application will automatically reload whenever you modify any of the source 
 
 ## Client Requests
 
-### 1: Move the book list
+### 1: Fixing the footer
+
+It's really frustrating that our footer sometimes has whitespace under it if there
+isn't a lot of content on the page. We'd like it to always be aligned at the bottom
+of the window, even if the content doesn't go down that far. Also, we've had complaints
+from some users that it's hard to read the info in the footer. One mentioned that
+we should be following accessibility guidelines for color contrast. Could you help
+us correct these issues?
+
+Topics: CSS layout, a11y concerns
+
+### 2: Move the book list
 
 We'd like to reserve our landing page for custom content and move our list of
-books to a separate page under "/books". Also, we would like an easier way to make
-changes to the table. Right now we copy and paste an existing row and then edit
-the values. Can we use some simpler data structure like JSON to provide data in
-the table?
+books to a separate page under "/books". Please keep the code for the new area of
+the site isolated in a module (under `./src/app/modules`) that gets pulled into
+the main app file.
 
-Topics: Routing, Components
+Also, we would like an easier way to make changes to the table. Right now we copy
+and paste an existing row and then edit the values. Can we use some simpler data
+structure like JSON to provide data in the table?
 
-### 2: Ingest data from API
+Topics: Routing, components
+
+### 3: Ingest data from API
 
 We have started scaling up our team, so we can provide more books. We started using
 a new service to manage our inventory that also provides some API endpoints. We
@@ -46,7 +60,7 @@ author, or price.
 
 Topics: Ingesting API, local state
 
-### 3: Clearance Sale
+### 4: Clearance Sale
 
 We have a couple books that haven't been selling well, so we are running a sale
 on them. The service we use allows us to set a sale price (the "current" value)
@@ -56,3 +70,11 @@ are on sale? We were thinking about having a special color for a sale row. Can w
 do that?
 
 Topics: Ambiguous requirements, a11y concerns, Bootstrap knowledge
+
+### 5: Switching to Sass
+
+Our marketing team is complaining that our site seems very "Bootstrap-y". We've
+hired a designer who is familiar with Sass. Please add Sass support to our project
+and update the project so we can override the default Bootstrap variable values.
+
+Topics: Package management, tool familiarity, Sass

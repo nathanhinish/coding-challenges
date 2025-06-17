@@ -1,15 +1,14 @@
 <style>
-  /* Add styles here */
+  footer {
+    background-color: #B3B3B3;
+    padding: 1rem;
+  }
 </style>
 
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Handmade Children's Books</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           @for (item of [{label: 'Home', href: '/'}]; track item.label) {
@@ -56,6 +55,21 @@
       </tbody>
     </table>
   </main>
+
+  <footer>
+    <div class="row fs-6">
+      <div class="col">
+        &copy; 2025 HBC, LLC.
+      </div>
+      <div class="col">
+        <a href="tel:1234567890">123-456-7890</a>
+      </div>
+      <div class="col">
+        <a href="mailto:example.hcb&#64;example.com">example.hcb&#64;example.com</a>
+      </div>
+    </div>
+
+  </footer>
 
 </div>
 
