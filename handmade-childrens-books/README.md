@@ -2,7 +2,7 @@
 
 In this coding challenge, you'll be helping an online bookmaking service called
 Handmade Children's Books. They are a small but growing company, and they are
-started to feel their current website is a bit inadequate. The site serves as a
+starting to feel their current website is a bit inadequate. The site serves as a
 first point of interaction for customers, but they prefer customers call so that
 they can provide a personalized experience. They'd like to make some improvements
 to accommodate _ALL_ of their visitors and to make site management a little easier.
