@@ -12,7 +12,7 @@ to accommodate _ALL_ of their visitors and to make site management a little easi
 This is a fairly vanilla setup, but some of the dependencies require Node 20.17
 or newer. Please make sure you have a compatible version installed. [Download Node](https://nodejs.org/en/download)
 
-After Node is installed, you shoudl be able to install the NPM dependencies.
+After Node is installed, you should be able to install the NPM dependencies.
 
 ```bash
 npm install
