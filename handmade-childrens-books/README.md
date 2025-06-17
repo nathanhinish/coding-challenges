@@ -1,11 +1,18 @@
-# Coding Challenge
+# Coding Challenge: Handmade Children's Books
 
-In this coding challenge, you'll be helping a custom book store build a new version
-of their site that allows for easier management of data. This site is a first point
-of contact for customers, which the client hopes will lead to potential customers
-calling them to place orders so that they can provide a personalized experience.
+In this coding challenge, you'll be helping an online bookmaking service called
+Handmade Children's Books. They are a small but growing company, and they are
+started to feel their current website is a bit inadequate. The site serves as a
+first point of interaction for customers, but they prefer customers call so that
+they can provide a personalized experience. They'd like to make some improvements
+to accommodate _ALL_ of their visitors and to make site management a little easier.
 
 ## Install dependencies
+
+This is a fairly vanilla setup, but some of the dependencies require Node 20.17
+or newer. Please make sure you have a compatible version installed. [Download Node](https://nodejs.org/en/download)
+
+After Node is installed, you shoudl be able to install the NPM dependencies.
 
 ```bash
 npm install
@@ -33,7 +40,7 @@ from some users that it's hard to read the info in the footer. One mentioned tha
 we should be following accessibility guidelines for color contrast. Could you help
 us correct these issues?
 
-Topics: CSS layout, a11y concerns
+Topics: CSS layout, accessibility concerns
 
 ### 2: Move the book list
 
@@ -46,7 +53,7 @@ Also, we would like an easier way to make changes to the table. Right now we cop
 and paste an existing row and then edit the values. Can we use some simpler data
 structure like JSON to provide data in the table?
 
-Topics: Routing, components
+Topics: Routing, components, modular development in Angular
 
 ### 3: Ingest data from API
 
@@ -69,7 +76,7 @@ give us a couple ideas of how we could draw attention to the fact that these boo
 are on sale? We were thinking about having a special color for a sale row. Can we
 do that?
 
-Topics: Ambiguous requirements, a11y concerns, Bootstrap knowledge
+Topics: Ambiguous requirements, accessibility concerns, Bootstrap knowledge
 
 ### 5: Switching to Sass
 
