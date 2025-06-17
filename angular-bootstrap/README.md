@@ -24,7 +24,7 @@ The application will automatically reload whenever you modify any of the source 
 
 ## Client Requests
 
-### 1: Fixing the footer
+### 1: Fix the footer
 
 It's really frustrating that our footer sometimes has whitespace under it if there
 isn't a lot of content on the page. We'd like it to always be aligned at the bottom
