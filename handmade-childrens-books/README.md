@@ -71,10 +71,10 @@ Topics: Ingesting API, local state
 
 We have a couple books that haven't been selling well, so we are running a sale
 on them. The service we use allows us to set a sale price (the "current" value)
-and we've done that for a couple books. Can you incorporate the new data, and
-give us a couple ideas of how we could draw attention to the fact that these books
-are on sale? We were thinking about having a special color for a sale row. Can we
-do that?
+and we've done that for a couple books. Can you incorporate the new data in
+`./src/app/data/books-2.json`, and give us a couple ideas of how we could draw
+attention to the fact that these books are on sale? We were thinking about having
+a special color for a sale row. Can we do that?
 
 Topics: Ambiguous requirements, accessibility concerns, Bootstrap knowledge
 
