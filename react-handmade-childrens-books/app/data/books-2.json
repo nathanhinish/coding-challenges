@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "price": [{ "retail": 1100, "currency": "USD" }]
+  },
+  {
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "price": [{ "retail": 3700, "currency": "USD" }]
+  },
+  {
+    "title": "Charlie and the Chocolate Factory",
+    "author": "Roald Dahl",
+    "price": [{ "retail": 2400, "currency": "USD" }]
+  },
+  {
+    "title": "Where the Wild Things Are",
+    "author": "Maurice Sendak",
+    "price": [{ "retail": 4900, "currency": "USD" }]
+  },
+  {
+    "title": "Charlotte's Web",
+    "author": "E.B. White",
+    "price": [{ "retail": 1800, "currency": "USD" }]
+  },
+  {
+    "title": "The Lion, the Witch and the Wardrobe",
+    "author": "C.S. Lewis",
+    "price": [{ "current": 3800, "retail": 4200, "currency": "USD" }]
+  },
+  {
+    "title": "Winnie-the-Pooh",
+    "author": "A.A. Milne",
+    "price": [{ "retail": 2900, "currency": "USD" }]
+  },
+  {
+    "title": "Peter Pan",
+    "author": "J.M. Barrie",
+    "price": [{ "retail": 2300, "currency": "USD" }]
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "price": [{ "retail": 850, "currency": "USD" }]
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "price": [{ "retail": 4800, "currency": "USD" }]
+  },
+  {
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "price": [{ "retail": 2300, "currency": "USD" }]
+  },
+  {
+    "title": "The Wind in the Willows",
+    "author": "Kenneth Grahame",
+    "price": [{ "retail": 3000, "currency": "USD" }]
+  },
+  {
+    "title": "Anne of Green Gables",
+    "author": "L.M. Montgomery",
+    "price": [{ "retail": 1600, "currency": "USD" }]
+  },
+  {
+    "title": "The Tale of Peter Rabbit",
+    "author": "Beatrix Potter",
+    "price": [{ "retail": 4000, "currency": "USD" }]
+  },
+  {
+    "title": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "price": [{ "current": 2400, "retail": 2800, "currency": "USD" }]
+  },
+  {
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "price": [{ "retail": 2500, "currency": "USD" }]
+  },
+  {
+    "title": "Pippi Longstocking",
+    "author": "Astrid Lindgren",
+    "price": [{ "retail": 1400, "currency": "USD" }]
+  },
+  {
+    "title": "James and the Giant Peach",
+    "author": "Roald Dahl",
+    "price": [{ "retail": 1400, "currency": "USD" }]
+  },
+  {
+    "title": "The BFG",
+    "author": "Roald Dahl",
+    "price": [{ "retail": 2000, "currency": "USD" }]
+  },
+  {
+    "title": "A Bear Called Paddington",
+    "author": "Michael Bond",
+    "price": [{ "current": 3400, "retail": 3800, "currency": "USD" }]
+  }
+]
