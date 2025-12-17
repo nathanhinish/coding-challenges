@@ -6,7 +6,7 @@ export function Welcome() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Handmade Children's Books
+            HCB
           </a>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -22,15 +22,19 @@ export function Welcome() {
         </div>
       </nav>
       <main>
-        <h1>Welcome to our site!</h1>
-        <p>
-          Here at HCB, we are perfectionists. We handcraft each book, including
-          binding, lettering, and illustration, with meticulous care. Our
-          intention is to produce something that will last your family for
-          generations. Please take a look through our offerings and don't
-          hesitate to get in touch with any questions about our process or
-          products.
-        </p>
+        <div className="card bg-dark text-light shadow-sm mb-4">
+          <div className="card-body">
+            <h1 className="card-title">Welcome to our site!</h1>
+            <p>
+              At Handmade Children's Books, we are perfectionists. We handcraft
+              each book, including binding, lettering, and illustration, with
+              meticulous care. Our intention is to produce something that will
+              last your family for generations. Please take a look through our
+              offerings and don't hesitate to get in touch with any questions
+              about our process or products.
+            </p>
+          </div>
+        </div>
 
         <h2>Available books</h2>
         <table className="table">
@@ -61,7 +65,7 @@ export function Welcome() {
         </table>
       </main>
 
-      <footer>
+      <footer className="rounded mt-4">
         <div className="row fs-6">
           <div className="col">&copy; 2025 HBC, LLC.</div>
           <div className="col">

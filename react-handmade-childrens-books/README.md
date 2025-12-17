@@ -29,6 +29,11 @@ npm run dev
 Once the server is running, open your browser and navigate to `http://localhost:5173/`.
 The application will automatically reload whenever you modify any of the source files.
 
+## References
+
+The site uses React with [React Router](https://reactrouter.com/), [Vite](https://vite.dev/),
+and [Bootstrap 5](https://getbootstrap.com/).
+
 ## Client Requests
 
 ### 1: Fix the footer
@@ -52,17 +57,17 @@ Also, we would like an easier way to make changes to the table. Right now we cop
 and paste an existing row and then edit the values. Is there a simpler way to
 provide data in the table?
 
-Topics: Routing, components, modular development in Angular
+Topics: Routing, components, organization
 
 ### 3: Ingest data from API
 
-We have started scaling up our team, so we can provide more books. We started using
-a new service to manage our inventory that also provides some API endpoints. We
-don't have the endpoint yet, but it returns a list of books like you see in
-`./src/app/data/books-1.json`. Could you incorporate the data from that file for
-now, but in anticipation of us having that data returned from an API? Also, since
-we have a longer list of books now, we'd like to be able to sort the books by title,
-author, or price.
+Based on our recent increase in revenue, we decided to scale up our team as well
+as offerring new books. We started using a new service to manage our inventory that
+also provides some API endpoints. We don't have the endpoint yet, but it returns
+a list of books like you see in `./src/app/data/books-1.json`. Could you incorporate
+the data from that file for now, but in anticipation of us having that data returned
+from an API? Also, since we have a longer list of books now, we'd like to be able
+to sort the books by title, author, or price.
 
 Topics: Ingesting API, local state
 
@@ -71,7 +76,7 @@ Topics: Ingesting API, local state
 We have a couple books that haven't been selling well, so we are running a sale
 on them. The service we use allows us to set a sale price (the "current" value)
 and we've done that for a couple books. Can you incorporate the new data in
-`./src/app/data/books-2.json`, and give us a couple ideas of how we could draw
+`./src/app/data/books-2.json`, and give us some ideas of how we could draw
 attention to the fact that these books are on sale? We were thinking about having
 a special color for a sale row. Can we do that?
 
@@ -81,6 +86,17 @@ Topics: Ambiguous requirements, accessibility concerns, Bootstrap knowledge
 
 Our marketing team is complaining that our site seems very "Bootstrap-y". We've
 hired a designer who is familiar with Sass. Please add Sass support to our project
-and update the project so we can override the default Bootstrap variable values.
+and update the project to override the default Bootstrap variable values. We were
+thinking of using the really popular purple we see everywhere--what are your
+thoughts?
 
-Topics: Package management, tool familiarity, Sass
+Topics: Package management, tool familiarity, Sass, client pushback
+
+### 6: Automation
+
+We keep forgetting to put the files on the server when you make changes. Could you
+help us automate this process so we don't forget about it. The owner is really hesitant
+to do this because she is afraid something will be put on the site by mistake. How
+can we avoid that issue?
+
+Topics: Task automation, repo configuration
