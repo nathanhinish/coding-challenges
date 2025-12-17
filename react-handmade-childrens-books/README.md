@@ -40,14 +40,14 @@ HCB, LLC is a small, private company that primarily makes initial customer conta
 through book fairs and similar in-person events, or through word-of-mouth. They
 have a lightweight website that they use to share their price list and give some
 more info about their business after the initial contact. Ultimately, after someone
-decides to purchase a book, they call or email HBC to continue the transaction. HBC
+decides to purchase a book, they call or email HCB to continue the transaction. HCB
 isn't interested in online payment systems at this time as they overhead cuts into
 their surprisingly thin margins.
 
 They had a website consultant who handed off an initial build with them, but they
 decided to switch careers, and are now pursuing a marine biology degree (it was
 the owner's neice). Now they've hired you to help improve the site and make sure
-they are serving customers. Your point of contact handles marketing at HBC but they
+they are serving customers. Your point of contact handles marketing at HCB but they
 would definitely not be accused of being a "technically-inclined" person.
 
 ## Client Requests
