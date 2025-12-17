@@ -1,1 +1,4 @@
-Click a folder to see more info about that coding exercise.
+# Coding Exercises
+
+- [Angular exercise](./ng-handmade-childrens-books/README.md)
+- [React exercise](./react-handmade-childrens-books/README.md)
