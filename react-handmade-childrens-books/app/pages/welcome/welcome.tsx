@@ -11,7 +11,7 @@ export function Welcome() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               {LINKS.map(({ label, href }) => (
-                <li className="nav-item">
+                <li className="nav-item" key={href}>
                   <a className="nav-link" aria-current="page" href={href}>
                     {label}
                   </a>
