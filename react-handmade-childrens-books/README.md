@@ -50,6 +50,14 @@ the owner's neice). Now they've hired you to help improve the site and make sure
 they are serving customers. Your point of contact handles marketing at HCB but they
 would definitely not be accused of being a "technically-inclined" person.
 
+The interviewer is going to play the role of the marketer at HCB. Feel free to ask
+questions for clarification. The ultimate goal of this exercise is to get a better
+understanding of the following:
+
+- your technical expertise specific to our tool stack
+- your discovery process
+- how you communicate
+
 ## Client Requests
 
 ### 1: Fix the footer
